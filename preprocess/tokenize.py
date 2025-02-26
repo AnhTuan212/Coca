@@ -5,7 +5,6 @@ from os.path import splitext, join, isdir, exists
 import youtokentome as yttm
 from omegaconf import DictConfig, OmegaConf
 
-
 def tokenize(config: DictConfig):
     data_path = join(config.data_folder, config.dataset.name, config.dataset.dir)
     model_path = join(data_path, config.dataset.tokenizer_name)
