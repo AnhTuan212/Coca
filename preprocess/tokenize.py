@@ -36,7 +36,6 @@ def tokenize(config: DictConfig):
     )
 
     remove("text.yttm")
-    print("ok")
 
 
 if __name__ == "__main__":
